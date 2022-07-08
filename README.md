@@ -44,20 +44,20 @@ ________________________________________________________________________________
 Spring boot configuration 
 _________________________
 
-spring-boot-configuration -> 
-				config package'ında SecurityConfig.class oluştur gerekli ayarlamaları yap
-				controller içinde endpointlerin altına @RolesAllowed("user") gibi belirt
+		spring-boot-configuration -> 
+						config package'ında SecurityConfig.class oluştur gerekli ayarlamaları yap
+						controller içinde endpointlerin altına @RolesAllowed("user") gibi belirt
 
-postman -> url : GET http://localhost:9090/employees
-	   authorization sekmesi
-	   type : OAuth 2.0
-	   grant type: password credentials
-	   access token url : http://localhost:8180/auth/realms/SpringBootKeycloak/protocol/openid-connect/token
-	   clientId: login-app
-	   username (user1 for user role)     (user99 for admin role)
-	   password (1234)
-	   scope: openid
-	get new access token   -> (jwt.io'dan tokeni kopyala yapıştır yapıp ayrıntılarına bakabiliriz)
-	use token
-	send request
+		postman -> url : GET http://localhost:9090/employees
+			   authorization sekmesi
+			   type : OAuth 2.0
+			   grant type: password credentials
+			   access token url : http://localhost:8180/auth/realms/SpringBootKeycloak/protocol/openid-connect/token
+			   clientId: login-app
+			   username (user1 for user role)     (user99 for admin role)
+			   password (1234)
+			   scope: openid
+			get new access token   -> (jwt.io'dan tokeni kopyala yapıştır yapıp ayrıntılarına bakabiliriz)
+			use token
+			send request
 
