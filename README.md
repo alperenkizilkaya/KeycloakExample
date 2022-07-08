@@ -2,7 +2,9 @@
 Integration of Keycloak with Spring Boot API
 
 https://www.keycloak.org/archive/downloads-13.0.1.html 
+
 "Distribution powered by WildFly" yazan kısımdan zip olarak indir, istediğin yerde zip'ten çıkar
+
 keycloak-13.0.1\bin dizinine git
 
 ayağa kaldır: cmd ->
