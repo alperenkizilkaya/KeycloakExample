@@ -9,6 +9,9 @@ Integration of Keycloak with Spring Boot API
 
 		ayağa kaldır: cmd ->
 				standalone.sh -Djboss.socket.binding.port-offset=100
+				
+				**for mac -> chmod +x standalone.sh
+					     ./standalone.sh -Djboss.socket.binding.port-offset=100
 
 		adres:
 			http://localhost:8180/auth
